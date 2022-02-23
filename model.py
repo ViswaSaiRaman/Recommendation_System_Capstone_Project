@@ -364,7 +364,8 @@ ratings_pkl = pickle.load(open('models/user_item_ratings.pkl', 'rb'))
 
 
 
-
+#App is Deployed to Heroku and is available @ https://capstone-raman.herokuapp.com/
+#github-link : https://github.com/ViswaSaiRaman/Recommendation_System_Capstone_Project
 
 
 
