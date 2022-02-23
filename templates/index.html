@@ -1,0 +1,25 @@
+<html>
+
+<title>
+    Welcome to Item Recommendation System
+</title>
+
+
+
+
+<body align="center" style="background-color:cyan">
+
+<form align="center" action="{{ url_for('recommend')}}" method="post">
+<h2><font color="red" face="Verdana"><b>WELCOME TO EBUSS RECOMMENDATION SYSTEM</b> </font></h2>
+<br><br><br>
+<h3><font color="green" face="Verdana"> Enter the Username </font> </h3> <br>
+<input type="text" name="username" placeholder="Enter the name of the user" required="required">
+<br><br>
+<button align="center" type="submit">Get top 5 recommendations</button>
+<br><br>
+<pre> <font color = "maroon", family = "Comic Sans MS">{{items_list}}</font></pre>
+</form>
+
+</body>
+
+</html>
